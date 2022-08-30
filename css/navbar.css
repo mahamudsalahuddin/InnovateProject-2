@@ -1,0 +1,51 @@
+.navbar__box{
+    display: flex;
+}
+.navbar{
+    background: black;
+}
+.navbar__logo{
+    width: 20%;
+}
+.navbar__item{
+    width: 60%;
+}
+.navbar__items{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 63px;
+    color: #fff;
+    font-family: var(--opensans);
+    font-size: var(--parafontsize);
+    font-weight: var(--semibold);
+}
+nav .navbar__item ul li i{
+    margin-left: 5px;
+}
+
+.navbar__button{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar__link{
+    display: inline-block;
+    padding: 14px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 18px;
+    border: 2px solid var(--white);
+    /* border: 1px solid transparent; */
+    transition: 0.5s; /*koto somoy niye change hobe */
+}
+.navbar__link:hover{
+    background: transparent;
+    color: var(--black);
+    border-color: transparent;
+    background: white;
+}

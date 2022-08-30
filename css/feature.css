@@ -1,0 +1,216 @@
+.feature__title{
+    text-align: center;
+}
+.feature__heading--width{
+    width: 676px;
+    margin: 0 auto;
+}
+.feature__box{
+    display: flex;
+}
+.feature__item{
+    width: 50%;
+    height: 200px;
+}
+.feature__imgtext{
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: 400;
+    line-height: 36px;
+    /* width: 688px; */
+    margin-top: 87px;
+}
+.feature__img img{
+    width: 90%;
+    margin-top: 27px;
+}
+.feature__list{
+    width: 50%;
+    /* background: rgb(170, 163, 207); */
+    margin-top: 60px;
+}
+.feature__items {
+    background: var(--primaylight);
+    /* display: flex; */
+    position: relative;
+    padding: 56px 0;
+    padding-left: 158px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.feature__round {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: var(--primary);
+    position: absolute;
+    left: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* .feature__listtitle{
+    margin-top: 36px;
+} */
+.feature__items--bgOne{
+    background: var(--primarylight);
+}
+.feature__items--bgTwo{
+    background: var(--orangelight);
+}
+.feature__items--bgThree{
+    background: var(--greenlight);
+}
+
+/* start traffic */
+.traffic__box{
+    display: flex;
+}
+.traffic__item{
+    height: 400px;
+    width: 50%;
+    /* background: red; */
+}
+.title__subheading--margin{
+    margin: 80px 0 10px 80px;
+}
+.title__heading--margin{
+    margin: 0 24px 24px 80px;
+}
+.traffic__text{
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: 400px;
+    line-height: 36px;
+    margin-left: 80px;
+    width: 556px;
+}
+.traffic__img{
+    height: 400px;
+    width: 50%;
+    margin-top: 112px;
+    /* background: blue; */
+}
+.videoimg{
+    width: 100%;
+}
+/* start traffic */
+
+/* start process */
+.ourprocess{
+    background: rgba(241, 251, 251, 0.5);
+    margin-top: 80px;
+}
+.ourprocess__title{
+    text-align: center;
+    padding-top: 120px;
+}
+.ourprocess__box1{
+    margin-top: 60px;
+    display: flex;
+}
+.ourprocess__items{
+    display: flex;
+    margin: 0 auto;
+}
+
+.ourprocess__item{
+    /* flex-direction: row; */
+    height: 220px;
+    width: 330px;
+    background-color: var(--orange);
+    margin: 5px;
+    border-radius: 14px;
+    position: relative;
+    text-align: center;
+
+}
+.ourprocess__item img{
+    margin-top: 30px;
+}
+.ourprocess__item p{
+    margin-top: 38px;
+    font-family: var(--popins);
+    font-weight: var(--semibold);
+    font-size: 24px;
+    color: var(--white);
+}
+.ourprocess__item--bgOne{
+    background: var(--primarylight);
+    
+}
+.ourprocess__item--bgOne p{
+    color: var(--black);
+}
+.ourprocess__item--bgTwo{
+    background: var(--greenlight);
+    
+}
+.ourprocess__item--bgTwo p{
+    color: var(--black);
+}
+.ourprocess__item--bgThree{
+    background: #FEF6EC;
+    
+}
+.ourprocess__item--bgThree p{
+    color: var(--black);
+}
+.triangle{
+    width: 50px;
+    height: 50px;
+    background-color: var(--orange);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* .ourprocess__box2{
+    display: flex;
+} */
+.ourprocess__body{
+    margin-top: 100px;
+    height: 400px;
+    display: flex;
+}
+.ourprocess__analysisimag{
+    width: 34%;
+    height: 400px;
+    margin-left: 100px;
+}
+.ourprocess__analysiscontent{
+    width: 66%;
+    height: 400px;
+    margin-left: 146px;
+}
+.analysisContentTitle{
+    font-family: var(--popins);
+    font-weight: var(--semibold);
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.analysisContentText{
+    width: 556px;
+    font-family: var(--nunito);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+}
+.analysisButton{
+    width: 200px;
+    border-radius: 20px;
+    align-items: center;
+    background: var(--primary);
+    margin-top: 30px;
+}
+.analysislink{
+    display: inline-block;
+    padding: 14px 28px;
+    font-family: var(--nunito);
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 20px;
+    
+}
+/* start process */

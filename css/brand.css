@@ -1,0 +1,13 @@
+.brandimage {
+    display: flex;
+    position: absolute;
+    top: 944px;
+    left: 15%;
+    z-index: 1;
+    justify-content: center;
+    column-gap: 100px;
+}
+.brand__image{
+
+    padding: 0 20px;
+}

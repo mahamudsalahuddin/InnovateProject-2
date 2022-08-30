@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+.title__subheading{
+    font-family: var(--nunito);
+    font-size: var(--subheading);
+    font-weight: var(--medium);
+    color: var(--primary);
+
+}
+.title__heading{
+    font-family: var(--popins);
+    font-size: var(--heading);
+    font-weight: var(--semibold);
+    color: var(--black);
+
+}

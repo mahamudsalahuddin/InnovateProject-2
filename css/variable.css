@@ -1,0 +1,21 @@
+:root{
+    --primary:#7968EF;
+    --primarylight:#F0EDFF;
+    --orange:#F8A64C;
+    --orangelight:#FEF6EC;
+    --green:#63DE9D;
+    --greenlight:#E8FCF2;
+    --white: #fff;
+    --black:#29313D;
+    --ash:#C4C4C4;
+    --sectiongap: 130px;
+    --parafontsize:18px;
+    --heading:48px;
+    --subheading: 24px;
+    --opensans:'Open Sans', sans-serif;
+    --nunito:'Nunito', sans-serif;
+    --popins: 'Poppins', sans-serif;
+    --semibold: 600;
+    --medium: 500;
+    --bold: 700;
+}

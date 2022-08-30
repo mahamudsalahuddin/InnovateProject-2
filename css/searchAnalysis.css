@@ -1,0 +1,30 @@
+.searchAnalysis{
+    margin-top: 100px;
+}
+.searchAnalysis__image{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.searchAnalysis__heading{
+    position: absolute;
+    left: 460px;
+    top: 134px;
+    margin: 0 auto;
+    color: white;
+}
+.searchAnalysis__text {
+    font-family: var(--nunito);
+    font-weight: 400;
+    font-size: var(--parafontsize);
+    color: white;
+    width: 635px;
+    position: absolute;
+    top: 223px;
+    left: 463px;
+}
+.searchAnalysis__search{
+    position: absolute;
+    top: 322px;
+    left: 468px;
+}
