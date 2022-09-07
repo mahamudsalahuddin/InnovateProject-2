@@ -24,11 +24,11 @@
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/banner.css" />
-    <link rel="stylesheet" href="css/brand.css" />
     <link rel="stylesheet" href="css/feature.css" />
     <link rel="stylesheet" href="css/ourworks.css" />
     <link rel="stylesheet" href="css/pricing.css" />
     <link rel="stylesheet" href="css/searchAnalysis.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <!-- #################################################################################################
@@ -100,6 +100,21 @@
         With over 25 years of experience, we have crafted thousands of strategic discovery process that enables us to peel back the layers which
         enable us to understand.
       </p>
+
+      <div class="brand">
+        <div class="banner__brandimage">
+          <img src="images/brand1.png" alt="" />
+        </div>
+        <div class="banner__brandimage">
+          <img src="images/brand2.png" alt="" />
+        </div>
+        <div class="banner__brandimage">
+          <img src="images/brand3.png" alt="" />
+        </div>
+        <div class="banner__brandimage">
+          <img src="images/brand4.png" alt="" />
+        </div>
+      </div>
     </section>
     <!-- ##################################################################################################
                             banner part end
@@ -111,31 +126,6 @@
     <!-- ##################################################################################################
                         search part end
 #######################################################################################################-->
-    <!-- ##################################################################################################
-                            brand part start
-#######################################################################################################-->
-    <section class="brand">
-      <div class="container">
-        <div class="brandimage">
-          <div class="brand__image">
-            <img src="images/brand1.png" alt="" />
-          </div>
-          <div class="brand__image">
-            <img src="images/brand2.png" alt="" />
-          </div>
-          <div class="brand__image">
-            <img src="images/brand3.png" alt="" />
-          </div>
-          <div class="brand__image">
-            <img src="images/brand4.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ##################################################################################################
-                            brand part end
-#######################################################################################################-->
-
     <!-- ##################################################################################################
                             feature part start
 #######################################################################################################-->
@@ -309,91 +299,138 @@
     <!-- ##################################################################################################
                             pricing part start
 #######################################################################################################-->
-      <section class="pricing">
-        <div class="container">
-          <div class="pricing__title">
-            <div class="title__subheading">Our pricing</div>
+    <section class="pricing">
+      <div class="container">
+        <div class="pricing__title">
+          <div class="title__subheading">Our pricing</div>
           <div class="title__heading">Premium optimization plans</div>
+        </div>
+        <div class="pricing__box">
+          <div class="pbox">
+            <div class="pItem">Save up to 40% by paying annually!</div>
+            <div class="pItem">personal</div>
+            <div class="pItem">professional</div>
+            <div class="pItem">Enterprice</div>
           </div>
-          <div class="pricing__box">
-            <div class="pbox">
-              <div class="pItem">Save up to 40% by paying annually!</div>
-              <div class="pItem">personal</div>
-              <div class="pItem">professional</div>
-              <div class="pItem">Enterprice</div>
-            </div>
-            <div class="pbox">
-              <div class="pItem">keywords result</div>
-              <div class="pItem">Top 1,000</div>
-              <div class="pItem">5,000</div>
-              <div class="pItem">10,000</div>
-            </div>
-            <div class="pbox">
-              <div class="pItem">Territories</div>
-              <div class="pItem">Top 6</div>
-              <div class="pItem">13
-              </div>
-              <div class="pItem">200+</div>
-            </div>
-            <div class="pbox">
-              <div class="pItem">Search by time</div>
-              <div class="pItem"><img src="images/TickSquare.png" alt=""></div>
-              <div class="pItem"><img src="images/TickSquare.png" alt=""></div>
-              <div class="pItem"><img src="images/TickSquare.png" alt=""></div>
-            </div>
-            <div class="pbox">
-              <div class="pItem">Api access</div>
-              <div class="pItem"><img src="images/TickSquare.png" alt=""></div>
-              <div class="pItem"><img src="images/CloseSquare.png" alt=""></div>
-              <div class="pItem"><img src="images/TickSquare.png" alt=""></div>
-            </div>
-            <div class="pbox">
-              <div class="pItem">competition metrics</div>
-              <div class="pItem"><img src="images/TickSquare.png" alt=""></div>
-              <div class="pItem"><img src="images/CloseSquare.png" alt=""></div>
-              <div class="pItem"><img src="images/TickSquare.png" alt=""></div>
-            </div>
-            <div class="pbox">
-              <div class="pItem">Reports</div>
-              <div class="pItem"><img src="images/TickSquare.png" alt=""></div>
-              <div class="pItem"><img src="images/TickSquare.png" alt=""></div>
-              <div class="pItem"><img src="images/TickSquare.png" alt=""></div>
-            </div>
-            <div class="pbox">
-              <div class="pItem "></div>
-              <div class="pItem pItem--color">Try for free</div>
-              <div class="pItem pItem--color">Buy now</div>
-              <div class="pItem pItem--color">Buy now</div>
-            </div>
+          <div class="pbox">
+            <div class="pItem">keywords result</div>
+            <div class="pItem">Top 1,000</div>
+            <div class="pItem">5,000</div>
+            <div class="pItem">10,000</div>
+          </div>
+          <div class="pbox">
+            <div class="pItem">Territories</div>
+            <div class="pItem">Top 6</div>
+            <div class="pItem">13</div>
+            <div class="pItem">200+</div>
+          </div>
+          <div class="pbox">
+            <div class="pItem">Search by time</div>
+            <div class="pItem"><img src="images/TickSquare.png" alt="" /></div>
+            <div class="pItem"><img src="images/TickSquare.png" alt="" /></div>
+            <div class="pItem"><img src="images/TickSquare.png" alt="" /></div>
+          </div>
+          <div class="pbox">
+            <div class="pItem">Api access</div>
+            <div class="pItem"><img src="images/TickSquare.png" alt="" /></div>
+            <div class="pItem"><img src="images/CloseSquare.png" alt="" /></div>
+            <div class="pItem"><img src="images/TickSquare.png" alt="" /></div>
+          </div>
+          <div class="pbox">
+            <div class="pItem">competition metrics</div>
+            <div class="pItem"><img src="images/TickSquare.png" alt="" /></div>
+            <div class="pItem"><img src="images/CloseSquare.png" alt="" /></div>
+            <div class="pItem"><img src="images/TickSquare.png" alt="" /></div>
+          </div>
+          <div class="pbox">
+            <div class="pItem">Reports</div>
+            <div class="pItem"><img src="images/TickSquare.png" alt="" /></div>
+            <div class="pItem"><img src="images/TickSquare.png" alt="" /></div>
+            <div class="pItem"><img src="images/TickSquare.png" alt="" /></div>
+          </div>
+          <div class="pbox">
+            <div class="pItem"></div>
+            <div class="pItem pItem--color">Try for free</div>
+            <div class="pItem pItem--color">Buy now</div>
+            <div class="pItem pItem--color">Buy now</div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     <!-- ##################################################################################################
                             pricing part end
 #######################################################################################################-->
 
-<!-- ##################################################################################################
+    <!-- ##################################################################################################
                             searchAnalysis part start
 #######################################################################################################-->
 
-<section class="searchAnalysis">
-  <div class="container">
-    <div class="searchAnalysis__image">
-      <img src="images/searchAnalysisImg.png" alt="">
-      <p class="searchAnalysis__heading title__heading">Get your free seo analytics</p>
-      <p class="searchAnalysis__text">Paste your website link to get the free 7 days analytics of your website for totaly free</p>
-      <div class="searchAnalysis__search">
-        <img src="images/searchImage.png" alt="">
+    <section class="searchAnalysis">
+      <div class="container">
+        <div class="searchAnalysis__image">
+          <!-- <img src="images/searchAnalysisImg.png" alt="" /> -->
+          <p class="searchAnalysis__heading title__heading">Get your free seo analytics</p>
+          <p class="searchAnalysis__text">Paste your website link to get the free 7 days analytics of your website for totaly free</p>
+          <div class="searchAnalysis__search">
+            <img src="images/searchImage.png" alt="" />
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ##################################################################################################
+    <!-- ##################################################################################################
                             searchAnalysis part end
 #######################################################################################################-->
 
-
-
-</body>
+    <!-- ############################################
+              footer part start
+###############################################-->
+    <section class="footer">
+      <div class="container">
+        <div class="box">
+          <div class="footerUp">
+            <div class="logoPart">
+              <div class="logo"><img src="images/foooterLogo.png" alt="footerlogo" /></div>
+              <p class="logoText">
+                Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one
+                or multi-page.
+              </p>
+            </div>
+            <div class="itemPart">
+              <ul class="items">
+                <h3>Features</h3>
+                <li>Home</li>
+                <li>About</li>
+                <li>Benefit</li>
+                <li>Pricing</li>
+                <li>Blog</li>
+              </ul>
+              <ul class="items">
+                <h3>Products</h3>
+                <li>Task Management</li>
+                <li>Company growth</li>
+                <li>Time tracking</li>
+              </ul>
+              <ul class="items">
+                <h3>Support</h3>
+                <li>Customer service</li>
+                <li>Accessibility</li>
+                <li>Contact us</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footerDown">
+            <div class="copyright">@20201 Innovate.All rights reserved.</div>
+            <div class="privacyAndCondition">
+              <div class="privacy">Privacy policy</div>
+              <div class="condition">Terms & condition</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ############################################
+              footer part end
+###############################################-->
+  </body>
 </html>

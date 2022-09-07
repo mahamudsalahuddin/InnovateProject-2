@@ -1,0 +1,64 @@
+.footer .box {
+  margin-top: 120px;
+  padding-top: 140px;
+  /* text-align: center; */
+  box-sizing: border-box;
+  background: #f1fbfb;
+}
+.footer .footerUp {
+  display: flex;
+  margin-bottom: 50px;
+}
+.footer .logoText {
+  font-family: var(--nunito);
+  font-size: var(--parafontsize);
+  font-weight: var(--regular);
+  width: 449px;
+  padding-top: 18px;
+}
+.footer .logoPart {
+  width: 40%;
+  padding-left: 118px;
+}
+.footer .itemPart {
+  width: 60%;
+}
+.footer .itemPart {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .itemPart h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #29313d;
+}
+.footer .itemPart li {
+  margin-top: 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #29313d;
+}
+.footer .footerDown {
+  display: flex;
+  /* margin: 100px 0; */
+  padding-bottom: 55px;
+}
+.footer .footerDown .copyright {
+  width: 50%;
+  padding-left: 118px;
+}
+.footer .footerDown div {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #29313d;
+}
+.footer .privacyAndCondition {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  column-gap: 30px;
+  padding-right: 92px;
+}
